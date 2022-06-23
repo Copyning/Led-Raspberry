@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8:">
+		<title> HOME IOT NetWork </title>
+	</head>
+	<body>
+		<h1> LED on OFF(사용제목?머릿글) </h1>
+		<form action="/data" method="post">
+			<input type="submit" name="led" value="ON">
+			<input type="submit" name="led" value="OFF">
+			<input type="submit" name="led" value="Clean">
+			<input type="submit" name="led" value="Restart">
+		</form>
+
+	</body>
+</html>
